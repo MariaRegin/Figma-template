@@ -1,0 +1,79 @@
+.container {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(41, 65, 62);
+}
+
+.logo {
+  position: absolute;
+  height: 40px;
+  top: 50px;
+  left: 60px;
+}
+
+.menu {
+  padding-left: 300px;
+  padding-top: 50px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+.content {
+  background-image: url(../images/headerphoto.png);
+  background-position: center;
+  width: 100%;
+  height: 300px;
+}
+
+.mainheadings {
+  text-align: center;
+  padding: 50px;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "firstpart secondpart thirdpart";
+}
+
+h3 {
+  color: rgb(72, 145, 119);
+  font-style: italic;
+}
+
+.gridimage {
+  height: 500px;
+}
+
+.firstpart {
+  grid-area: firstpart;
+  padding: 70px;
+}
+
+.secondpart {
+  grid-area: secondpart;
+}
+
+.thirdpart {
+  grid-area: thirdpart;
+  padding: 70px;
+}
+
+.section {
+  background-image: url(../images/backgroundImage.png);
+  background-position: center;
+  padding: 100px;
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
